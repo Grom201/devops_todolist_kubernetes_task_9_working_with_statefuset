@@ -4,8 +4,7 @@ metadata:
   name: todoapp-service
   namespace: todoapp
 spec:
-  type: ClusterIP
-    clusterIP: None
+  clusterIP: None
   selector:
     app: todoapp
   ports:
