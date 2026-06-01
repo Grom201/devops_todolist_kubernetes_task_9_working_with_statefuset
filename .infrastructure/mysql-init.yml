@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: mysql-init
-  namespace: mysql
+  namespace: todoapp
 data:
   init.sql: |
     CREATE DATABASE IF NOT EXISTS todo;
